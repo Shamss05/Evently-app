@@ -1,3 +1,4 @@
+// Template only. Copy to firebase_options.dart and supply your Firebase configuration.
 import 'package:firebase_core/firebase_core.dart' show FirebaseOptions;
 import 'package:flutter/foundation.dart'
     show defaultTargetPlatform, kIsWeb, TargetPlatform;
@@ -29,7 +30,7 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyA407OGTp-G7BgEa2XpCJr6bvS5nRPIeLA',
+    apiKey: 'YOUR_FIREBASE_API_KEY',
     appId: '1:969952473695:web:ea80424bf27eb0164ca1ea',
     messagingSenderId: '969952473695',
     projectId: 'evently-38212',
@@ -39,14 +40,14 @@ class DefaultFirebaseOptions {
   );
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyCzRzJJ35qi4R6dCsRDLqxlhUwwKStbeSw',
+    apiKey: 'YOUR_FIREBASE_API_KEY',
     appId: '1:969952473695:android:6fb3cba20ac9f6194ca1ea',
     messagingSenderId: '969952473695',
     projectId: 'evently-38212',
     storageBucket: 'evently-38212.firebasestorage.app',
   );
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyDiTIoBmPiW9AeWtMMjPwAmM7SrCsQfOsc',
+    apiKey: 'YOUR_FIREBASE_API_KEY',
     appId: '1:969952473695:ios:5351a187bba45a8e4ca1ea',
     messagingSenderId: '969952473695',
     projectId: 'evently-38212',
@@ -54,7 +55,7 @@ class DefaultFirebaseOptions {
     iosBundleId: 'com.example.assignment6',
   );
   static const FirebaseOptions macos = FirebaseOptions(
-    apiKey: 'AIzaSyDiTIoBmPiW9AeWtMMjPwAmM7SrCsQfOsc',
+    apiKey: 'YOUR_FIREBASE_API_KEY',
     appId: '1:969952473695:ios:5351a187bba45a8e4ca1ea',
     messagingSenderId: '969952473695',
     projectId: 'evently-38212',
@@ -63,7 +64,7 @@ class DefaultFirebaseOptions {
   );
 
   static const FirebaseOptions windows = FirebaseOptions(
-    apiKey: 'AIzaSyA407OGTp-G7BgEa2XpCJr6bvS5nRPIeLA',
+    apiKey: 'YOUR_FIREBASE_API_KEY',
     appId: '1:969952473695:web:2a39c20d01fd86154ca1ea',
     messagingSenderId: '969952473695',
     projectId: 'evently-38212',
